@@ -1,0 +1,63 @@
+#include<iostream>
+
+using namespace std;
+
+int main(void)
+{
+	int n, m, i, j;
+	
+	while(cin >> n >> m)
+	{
+		if(!m && !n)
+			break;
+		
+		int alice[n], betty[m];
+		int n_alice = 0, n_betty = 0;
+		
+		for(i = 0; i < n; i++)
+		{
+			cin >> alice[i];
+			
+			if(i > 0 && alice[i] == alice[i - 1])
+				alice[i - 1] = 0;
+		}
+		
+		for(j = 0; j < m; j++)
+		{
+			cin >> betty[j];
+			
+			if(j > 0 && betty[j] == betty[j - 1])
+				betty[j - 1] = 0;
+		}
+		
+		for(i = 0, j = 0; i < n && j < m;)
+		{
+			if(alice[i] == betty[j])
+			{
+				alice[i] = 0;
+				betty[j] = 0;
+				i++;
+				j++;
+			}
+			else
+			{
+				if(alice[i] < betty[j])
+					i++;
+				else
+					j++;
+			}
+		}
+		
+		for(i = 0; i < n; i++)
+			if(alice[i] > 0)
+				n_alice++;
+		
+		for(j = 0; j < m; j++)
+			if(betty[j] > 0)
+				n_betty++;
+				
+		cout << (n_alice > n_betty ? n_betty : n_alice) << endl;
+	}	
+	
+	return 0;
+}
