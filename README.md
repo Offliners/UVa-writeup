@@ -7,7 +7,7 @@ OJ : https://vjudge.net/
 Based on [Taiwan CPE Standard](http://par.cse.nsysu.edu.tw/~advprog/star.php) 
 |★|★★|★★★|★★★★|★★★★★|Unranked|
 |-|-|-|-|-|-|
-|[105](Problem/level1/105/105.md)|||||[1583](Problem/unranked/1583/1583.md)|
+|[105](Problem/level1/105/105.md)|[10127](Problem/level2/10127/10127.md)||||[1583](Problem/unranked/1583/1583.md)|
 |[494](Problem/level1/494/494.md)|||||[10530](Problem/unranked/10530/10530.md)|
 |[10055](Problem/level1/10055/10055.md)|||||[12459](Problem/unranked/12459/12459.md)|
 |[10420](Problem/level1/10420/10420.md)||||||
