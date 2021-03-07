@@ -15,6 +15,7 @@ Based on [Taiwan CPE Standard](http://par.cse.nsysu.edu.tw/~advprog/star.php)
 |[10079](Problem/level1/10079/10079.md)||||||
 |[10346](Problem/level1/10346/10346.md)||||||
 |[10420](Problem/level1/10420/10420.md)||||||
+|[10469](Problem/level1/10469/10469.md)||||||
 |[10550](Problem/level1/10550/10550.md)||||||
 |[10696](Problem/level1/10696/10696.md)||||||
 |[10812](Problem/level1/10812/10812.md)||||||
